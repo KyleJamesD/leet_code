@@ -103,6 +103,8 @@ public class CheatSheet
         // Demonstrate list and string/array operations
         CheatSheet cheatSheet = new CheatSheet();
         cheatSheet.ListExamples();
+
+        Console.WriteLine("Cheat sheet examples executed successfully!");
     }
 
 

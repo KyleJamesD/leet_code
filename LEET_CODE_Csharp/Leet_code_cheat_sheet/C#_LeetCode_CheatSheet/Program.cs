@@ -86,4 +86,25 @@ public class CheatSheet
 
         string newStr = new string(cArr);  // Combine char array into a new string
     }
+
+    public static void Main()
+    {
+        // Create instances of Bird and Dog to demonstrate OOP concepts
+        Bird myBird = new Bird("Tweety", 5);
+        Dog myDog = new Dog("Rex");
+
+        myBird.Describe(); // Polymorphism: calls Bird's Describe()
+        myBird.Speak();    // Polymorphism: calls Bird's Speak()
+        myBird.Fly();      // Calls Fly() from IFlyable
+
+        myDog.Describe();  // Polymorphism: calls Animal's Describe() since Dog doesn't override it
+        myDog.Speak();     // Polymorphism: calls Dog's Speak()
+
+        // Demonstrate list and string/array operations
+        CheatSheet cheatSheet = new CheatSheet();
+        cheatSheet.ListExamples();
+    }
+
+
+
 }

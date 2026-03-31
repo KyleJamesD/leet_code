@@ -1,0 +1,4 @@
+C:\Users\kyled\Desktop\Github\C#\Leet_code_cheat_sheet\C#_LeetCode_CheatSheet\obj\Debug\net8.0\C#_LeetCode_CheatSheet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kyled\Desktop\Github\C#\Leet_code_cheat_sheet\C#_LeetCode_CheatSheet\obj\Debug\net8.0\C#_LeetCode_CheatSheet.AssemblyInfoInputs.cache
+C:\Users\kyled\Desktop\Github\C#\Leet_code_cheat_sheet\C#_LeetCode_CheatSheet\obj\Debug\net8.0\C#_LeetCode_CheatSheet.AssemblyInfo.cs
+C:\Users\kyled\Desktop\Github\C#\Leet_code_cheat_sheet\C#_LeetCode_CheatSheet\obj\Debug\net8.0\C#_LeetCode_CheatSheet.csproj.CoreCompileInputs.cache

@@ -112,7 +112,7 @@ public class CheatSheet
         // ========== ARRAY CREATION: CHAR ==========
         // ========== CHAR TO DIGIT TRICK ==========
         // ========== ARRAY CREATION: INT ==========
-        // ========== ARRAY CREATION: STRING ==========
+        // ========== ARRAY CREATION: STRING ========== string += in a loop → avoid if the loop is big. big O(n^2) time use string builder or list<string> and join at the end for big O(n) time.
         // ========== ARRAY CREATION: 2D ARRAYS ==========
         // ========== ARRAY PROPERTIES ==========
         // ========== ARRAY STATIC METHODS ==========

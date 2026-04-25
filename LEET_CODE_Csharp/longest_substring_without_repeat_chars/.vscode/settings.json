@@ -1,0 +1,25 @@
+{
+    //this will turn off all auto complete or quick complete or itelli sense because i have no fucking clue what they call it now.
+    //this file under.vscode is folder specific meaning it wont affect other folders/projects
+    //you can make it global if you edit the settings.json under your uf=ser profile folder.
+    "editor.quickSuggestions": {
+        "comments": "off",
+        "strings": "off",
+        "other": "off"
+    },
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.inlineSuggest.enabled": false,
+    "editor.parameterHints.enabled": false,
+    "editor.wordBasedSuggestions": "off",
+    "[csharp]": {
+        "editor.quickSuggestions": {
+            "comments": "off",
+            "strings": "off",
+            "other": "off"
+        },
+        "editor.suggestOnTriggerCharacters": false,
+        "editor.inlineSuggest.enabled": false,
+        "editor.parameterHints.enabled": false,
+        "editor.wordBasedSuggestions": "off"
+    }
+}

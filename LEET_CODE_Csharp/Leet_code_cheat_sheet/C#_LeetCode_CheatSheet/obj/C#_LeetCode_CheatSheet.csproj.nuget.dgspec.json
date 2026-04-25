@@ -1,32 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kyled\\Desktop\\Github\\C#\\Leet_code_cheat_sheet\\C#_LeetCode_CheatSheet\\C#_LeetCode_CheatSheet.csproj": {}
+    "/Users/kyle/Desktop/Github/leet_code/LEET_CODE_Csharp/Leet_code_cheat_sheet/C#_LeetCode_CheatSheet/C#_LeetCode_CheatSheet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kyled\\Desktop\\Github\\C#\\Leet_code_cheat_sheet\\C#_LeetCode_CheatSheet\\C#_LeetCode_CheatSheet.csproj": {
+    "/Users/kyle/Desktop/Github/leet_code/LEET_CODE_Csharp/Leet_code_cheat_sheet/C#_LeetCode_CheatSheet/C#_LeetCode_CheatSheet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kyled\\Desktop\\Github\\C#\\Leet_code_cheat_sheet\\C#_LeetCode_CheatSheet\\C#_LeetCode_CheatSheet.csproj",
+        "projectUniqueName": "/Users/kyle/Desktop/Github/leet_code/LEET_CODE_Csharp/Leet_code_cheat_sheet/C#_LeetCode_CheatSheet/C#_LeetCode_CheatSheet.csproj",
         "projectName": "C#_LeetCode_CheatSheet",
-        "projectPath": "C:\\Users\\kyled\\Desktop\\Github\\C#\\Leet_code_cheat_sheet\\C#_LeetCode_CheatSheet\\C#_LeetCode_CheatSheet.csproj",
-        "packagesPath": "C:\\Users\\kyled\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kyled\\Desktop\\Github\\C#\\Leet_code_cheat_sheet\\C#_LeetCode_CheatSheet\\obj\\",
+        "projectPath": "/Users/kyle/Desktop/Github/leet_code/LEET_CODE_Csharp/Leet_code_cheat_sheet/C#_LeetCode_CheatSheet/C#_LeetCode_CheatSheet.csproj",
+        "packagesPath": "/Users/kyle/.nuget/packages/",
+        "outputPath": "/Users/kyle/Desktop/Github/leet_code/LEET_CODE_Csharp/Leet_code_cheat_sheet/C#_LeetCode_CheatSheet/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\kyled\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/kyle/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,7 +38,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -61,12 +54,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.25, 8.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[8.0.25, 8.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.25, 8.0.25]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.310/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

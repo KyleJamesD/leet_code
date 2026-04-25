@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "/wIw6NBg+9U=",
+  "dgSpecHash": "RtMz+805C+Y=",
   "success": true,
-  "projectFilePath": "C:\\Users\\kyled\\Desktop\\Github\\C#\\Leet_code_cheat_sheet\\C#_LeetCode_CheatSheet\\C#_LeetCode_CheatSheet.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/kyle/Desktop/Github/leet_code/LEET_CODE_Csharp/Leet_code_cheat_sheet/C#_LeetCode_CheatSheet/C#_LeetCode_CheatSheet.csproj",
+  "expectedPackageFiles": [
+    "/Users/kyle/.nuget/packages/microsoft.netcore.app.ref/8.0.25/microsoft.netcore.app.ref.8.0.25.nupkg.sha512",
+    "/Users/kyle/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.25/microsoft.aspnetcore.app.ref.8.0.25.nupkg.sha512",
+    "/Users/kyle/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.25/microsoft.netcore.app.host.osx-arm64.8.0.25.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,6 +1,29 @@
 ﻿using System; // Needed for Console.WriteLine, etc
 using System.Collections.Generic; // Needed for List<T>
 
+
+public class Basics
+{
+    int counter = 0;
+    string s = "bhrjbksbgrkbghrkesgb";
+
+    public int LoopExample(string s)
+    {
+        //for loops must go into a funcction or constructor cannot float in a class
+        // string s.Length = 4  for "abcd"
+        // a index = 0 , b index = 1, c index = 2, d index = 3
+        //for lists we use .Count
+        for (int i = 0; i < s.Length; i++)
+        {
+            //
+            counter += 1; // counter = counter + 1
+        }
+
+        return counter;
+    }
+
+}
+
 // Abstract base class demonstrating OOP concepts
 public abstract class Animal
 {

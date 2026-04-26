@@ -189,8 +189,41 @@ public class CheatSheet
         // my_list.FindIndex(x => x > 5);  // Returns the index of the first match (-1 if not found)
         // my_list.ForEach(x => Console.WriteLine(x)); // Performs an action on each element
 
-        // ========== LIST CONVERSION ==========
+        // ========== LIST TO LIST CONVERSION ==========
         // List<string> my_str = my_list.ConvertAll(i => i.ToString()); // Convert List<int> to List<string>
+        
+        // ========== LIST TO STRING, INT, CHAR, DOUBLE CONVERSION ==========
+        // List<char> to string
+        // string result = string.Join("", char_list);                 // Delimiter "" → no separator: {'a','b','c'} → "abc"
+        // string result = string.Join(", ", char_list);              // Delimiter ", " → inserted between each element: {'a','b','c'} → "a, b, c"
+        // string result = new string(char_list.ToArray());           // Convert List<char> to char array, then to string
+        
+        // List<string> to string
+        // string result = string.Join("", string_list);              // Join a List<string> with no delimiter
+        // string result = string.Join(", ", string_list);            // Join a List<string> with comma delimiter
+        
+        // List<int> to string
+        // string result = string.Join("", int_list);                 // Join a List<int> to a single string
+        // string result = string.Join(", ", int_list);               // Join a List<int> with comma delimiter
+        
+        // List<double> to string
+        // string result = string.Join("", double_list);              // Join a List<double> to a single string
+        // string result = string.Join(".", double_list);             // Join a List<double> with dot delimiter
+        
+        // String of numbers to List<int> and sum
+        // string s = "12345";                                         // String of digits
+        // List<int> int_list = new List<int>();
+        // for (int i = 0; i < s.Length; i++) int_list.Add(s[i] - '0');  // {'1','2','3','4','5'} → {1,2,3,4,5}
+        // int sum = 0;
+        // foreach (int num in int_list) sum += num;                  // Sum all: 1+2+3+4+5 = 15
+        // string single_int = string.Join("", int_list);             // {1,2,3,4,5} → "12345" (as a single integer string)
+        
+        // String of numbers to List<double> and sum
+        // string s = "1.5 2.3 3.2";                                  // String of numbers
+        // List<double> double_list = new List<double>();
+        // foreach (string num in s.Split(' ')) double_list.Add(double.Parse(num));  // ["1.5","2.3","3.2"] → {1.5,2.3,3.2}
+        // double sum = 0;
+        // foreach (double num in double_list) sum += num;            // Sum all: 1.5+2.3+3.2 = 7.0
 
         // ========== ARRAY CREATION: CHAR ==========
         // char[] cArr = name.ToCharArray();              // String to char array
